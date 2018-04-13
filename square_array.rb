@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  holdsNewArray = []
+
+  array.each do |toSquare|
+    holdsNewArray << toSquare * toSquare
+  end
+   holdsNewArray
 end
